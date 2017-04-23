@@ -4,23 +4,23 @@ namespace app\index\controller;
 use think\Controller;
 use think\Db;
 use think\Request;
+use think\Response;
+use \think\Validate;
 
 class Index extends Controller
 {
     public function index()
     {
-        print_r($this->request->param());
-        die;
-        var_dump(empty(array('a'=>454)));
+
+        return $this->fetch('register');
+        /*$this->assign('name','ytc');
+        return $this->fetch('index');*/
     }
+
 
     public function test()
     {
-        echo '刘海洋是傻吊';
+        return view('index',['name'=>'math']);
     }
 
-    public function test2()
-    {
-        return 'hahhahah';
-    }
 }
