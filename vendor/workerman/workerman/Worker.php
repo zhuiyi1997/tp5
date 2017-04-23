@@ -33,7 +33,7 @@ class Worker
      *
      * @var string
      */
-    const VERSION = '3.3.6';
+    const VERSION = '3.4.1';
 
     /**
      * Status starting.
@@ -76,7 +76,7 @@ class Worker
      *
      * @var int
      */
-    const DEFAULT_BACKLOG = 1024;
+    const DEFAULT_BACKLOG = 102400;
     /**
      * Max udp package size.
      *
@@ -274,6 +274,13 @@ class Worker
     public static $onMasterStop = null;
 
     /**
+     * EventLoopClass
+     *
+     * @var string
+     */
+    public static $eventLoopClass = '';
+
+    /**
      * The PID of master process.
      *
      * @var int
@@ -390,17 +397,9 @@ class Worker
      * @var array
      */
     protected static $_availableEventLoops = array(
-        'libevent',
-        'event',
-        'ev'
+        'libevent' => '\Workerman\Events\Libevent',
+        'event'    => '\Workerman\Events\Event'
     );
-
-    /**
-     * Current eventLoop name.
-     *
-     * @var string
-     */
-    protected static $_eventLoopName = 'select';
 
     /**
      * PHP built-in protocols.
@@ -411,10 +410,7 @@ class Worker
         'tcp'   => 'tcp',
         'udp'   => 'udp',
         'unix'  => 'unix',
-        'ssl'   => 'tcp',
-        'sslv2' => 'tcp',
-        'sslv3' => 'tcp',
-        'tls'   => 'tcp'
+        'ssl'   => 'tcp'
     );
 
     /**
@@ -471,8 +467,10 @@ class Worker
             self::$logFile = __DIR__ . '/../workerman.log';
         }
         $log_file = (string)self::$logFile;
-        touch($log_file);
-        chmod($log_file, 0622);
+        if (!is_file($log_file)) {
+            touch($log_file);
+            chmod($log_file, 0622);
+        }
 
         // State.
         self::$_status = self::STATUS_STARTING;
@@ -608,7 +606,7 @@ class Worker
         if (self::$daemonize) {
             global $argv;
             $start_file = $argv[0];
-            self::safeEcho("Input \"php $start_file stop\" to quit. Start success.\n");
+            self::safeEcho("Input \"php $start_file stop\" to quit. Start success.\n\n");
         } else {
             self::safeEcho("Press Ctrl-C to quit. Start success.\n");
         }
@@ -813,7 +811,7 @@ class Worker
      *
      * @throws Exception
      */
-    protected static function resetStd()
+    public static function resetStd()
     {
         if (!self::$daemonize) {
             return;
@@ -851,16 +849,38 @@ class Worker
      */
     protected static function getEventLoopName()
     {
-        if (interface_exists('\React\EventLoop\LoopInterface')) {
-            return 'React';
+        if (self::$eventLoopClass) {
+            return self::$eventLoopClass;
         }
-        foreach (self::$_availableEventLoops as $name) {
+
+        $loop_name = '';
+        foreach (self::$_availableEventLoops as $name=>$class) {
             if (extension_loaded($name)) {
-                self::$_eventLoopName = $name;
+                $loop_name = $name;
                 break;
             }
         }
-        return self::$_eventLoopName;
+
+        if ($loop_name) {
+            if (interface_exists('\React\EventLoop\LoopInterface')) {
+                switch ($loop_name) {
+                    case 'libevent':
+                        self::$eventLoopClass = '\Workerman\Events\React\LibEventLoop';
+                        break;
+                    case 'event':
+                        self::$eventLoopClass = '\Workerman\Events\React\ExtEventLoop';
+                        break;
+                    default :
+                        self::$eventLoopClass = '\Workerman\Events\React\StreamSelectLoop';
+                        break;
+                }
+            } else {
+                self::$eventLoopClass = self::$_availableEventLoops[$loop_name];
+            }
+        } else {
+            self::$eventLoopClass = interface_exists('\React\EventLoop\LoopInterface')? '\Workerman\Events\React\StreamSelectLoop':'\Workerman\Events\Select';
+        }
+        return self::$eventLoopClass;
     }
 
     /**
@@ -937,6 +957,8 @@ class Worker
             $worker->setUserAndGroup();
             $worker->id = $id;
             $worker->run();
+            $err = new Exception('event-loop exited');
+            self::log($err);
             exit(250);
         } else {
             throw new Exception("forkOneWorker fail");
@@ -1198,6 +1220,7 @@ class Worker
             foreach (self::$_workers as $worker) {
                 $worker->stop();
             }
+            self::$globalEvent->destroy();
             exit(0);
         }
     }
@@ -1211,7 +1234,7 @@ class Worker
     {
         // For master process.
         if (self::$_masterPid === posix_getpid()) {
-            $loadavg = sys_getloadavg();
+            $loadavg = function_exists('sys_getloadavg') ? array_map('round', sys_getloadavg(), array(2)) : array('-', '-', '-');
             file_put_contents(self::$_statisticsFile,
                 "---------------------------------------GLOBAL STATUS--------------------------------------------\n");
             file_put_contents(self::$_statisticsFile,
@@ -1408,7 +1431,6 @@ class Worker
         // Autoload.
         Autoloader::setRootPath($this->_autoloadRootPath);
 
-        $local_socket = $this->_socketName;
         // Get the application layer communication protocol and listening address.
         list($scheme, $address) = explode(':', $this->_socketName, 2);
         // Check application layer protocol class.
@@ -1425,10 +1447,14 @@ class Worker
                     }
                 }
             }
-            $local_socket = $this->transport . ":" . $address;
+            if (!isset(self::$_builtinTransports[$this->transport])) {
+                throw new \Exception('Bad worker->transport ' . var_export($this->transport, true));
+            }
         } else {
-            $this->transport = self::$_builtinTransports[$scheme];
+            $this->transport = $scheme;
         }
+
+        $local_socket = self::$_builtinTransports[$this->transport] . ":" . $address;
 
         // Flag.
         $flags  = $this->transport === 'udp' ? STREAM_SERVER_BIND : STREAM_SERVER_BIND | STREAM_SERVER_LISTEN;
@@ -1445,8 +1471,12 @@ class Worker
             throw new Exception($errmsg);
         }
 
+        if ($this->transport === 'ssl') {
+            stream_socket_enable_crypto($this->_mainSocket, false);
+        }
+
         // Try to open keepalive for tcp and disable Nagle algorithm.
-        if (function_exists('socket_import_stream') && $this->transport === 'tcp') {
+        if (function_exists('socket_import_stream') && self::$_builtinTransports[$this->transport] === 'tcp') {
             $socket = socket_import_stream($this->_mainSocket);
             @socket_set_option($socket, SOL_SOCKET, SO_KEEPALIVE, 1);
             @socket_set_option($socket, SOL_TCP, TCP_NODELAY, 1);
@@ -1494,8 +1524,8 @@ class Worker
 
         // Create a global event loop.
         if (!self::$globalEvent) {
-            $eventLoopClass    = "\\Workerman\\Events\\" . ucfirst(self::getEventLoopName());
-            self::$globalEvent = new $eventLoopClass;
+            $event_loop_class = self::getEventLoopName();
+            self::$globalEvent = new $event_loop_class;
             // Register a listener to be notified when server socket is ready to read.
             if ($this->_socketName) {
                 if ($this->transport !== 'udp') {
@@ -1575,6 +1605,7 @@ class Worker
         $this->connections[$connection->id] = $connection;
         $connection->worker                 = $this;
         $connection->protocol               = $this->protocol;
+        $connection->transport              = $this->transport;
         $connection->onMessage              = $this->onMessage;
         $connection->onClose                = $this->onClose;
         $connection->onError                = $this->onError;

@@ -22,6 +22,12 @@ use Workerman\Worker;
 class Http
 {
     /**
+      * The supported HTTP methods
+      * @var array
+      */
+    public static $methods = array('GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'OPTIONS');
+
+    /**
      * Check the integrity of the package.
      *
      * @param string        $recv_buffer
@@ -40,21 +46,34 @@ class Http
         }
 
         list($header,) = explode("\r\n\r\n", $recv_buffer, 2);
-        if (0 === strpos($recv_buffer, "POST")) {
-            // find Content-Length
-            $match = array();
-            if (preg_match("/\r\nContent-Length: ?(\d+)/i", $header, $match)) {
-                $content_length = $match[1];
-                return $content_length + strlen($header) + 4;
-            } else {
-                return 0;
-            }
-        } elseif (0 === strpos($recv_buffer, "GET")) {
-            return strlen($header) + 4;
-        } else {
+        $method = substr($header, 0, strpos($header, ' '));
+
+        if(in_array($method, static::$methods)) {
+            return static::getRequestSize($header, $method);
+        }else{
             $connection->send("HTTP/1.1 400 Bad Request\r\n\r\n", true);
             return 0;
         }
+    }
+
+    /**
+      * Get whole size of the request
+      * includes the request headers and request body.
+      * @param string $header The request headers
+      * @param string $method The request method
+      * @return integer
+      */
+    protected static function getRequestSize($header, $method)
+    {
+        if($method=='GET') {
+            return strlen($header) + 4;
+        }
+        $match = array();
+        if (preg_match("/\r\nContent-Length: ?(\d+)/i", $header, $match)) {
+            $content_length = isset($match[1]) ? $match[1] : 0;
+            return $content_length + strlen($header) + 4;
+        }
+        return 0;
     }
 
     /**
@@ -89,6 +108,7 @@ class Http
             'HTTP_CONNECTION'      => '',
             'REMOTE_ADDR'          => '',
             'REMOTE_PORT'          => '0',
+            'REQUEST_TIME'         => time()
         );
 
         // Parse headers.
@@ -144,8 +164,16 @@ class Http
             } else {
                 parse_str($http_body, $_POST);
                 // $GLOBALS['HTTP_RAW_POST_DATA']
-                $GLOBALS['HTTP_RAW_POST_DATA'] = $http_body;
+                $GLOBALS['HTTP_RAW_REQUEST_DATA'] = $GLOBALS['HTTP_RAW_POST_DATA'] = $http_body;
             }
+        }
+
+        if ($_SERVER['REQUEST_METHOD'] === 'PUT') {
+                $GLOBALS['HTTP_RAW_REQUEST_DATA'] = $http_body;
+        }
+
+        if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
+                $GLOBALS['HTTP_RAW_REQUEST_DATA'] = $http_body;
         }
 
         // QUERY_STRING
@@ -410,16 +438,19 @@ class Http
             list($boundary_header_buffer, $boundary_value) = explode("\r\n\r\n", $boundary_data_buffer, 2);
             // Remove \r\n from the end of buffer.
             $boundary_value = substr($boundary_value, 0, -2);
+            $key = -1;
             foreach (explode("\r\n", $boundary_header_buffer) as $item) {
                 list($header_key, $header_value) = explode(": ", $item);
                 $header_key = strtolower($header_key);
                 switch ($header_key) {
                     case "content-disposition":
+                        $key ++;
                         // Is file data.
-                        if (preg_match('/name=".*?"; filename="(.*?)"$/', $header_value, $match)) {
+                        if (preg_match('/name="(.*?)"; filename="(.*?)"$/', $header_value, $match)) {
                             // Parse $_FILES.
-                            $_FILES[] = array(
-                                'file_name' => $match[1],
+                            $_FILES[$key] = array(
+                                'name' => $match[1],
+                                'file_name' => $match[2],
                                 'file_data' => $boundary_value,
                                 'file_size' => strlen($boundary_value),
                             );
@@ -431,6 +462,10 @@ class Http
                                 $_POST[$match[1]] = $boundary_value;
                             }
                         }
+                        break;
+                    case "content-type":
+                        // add file_type
+                        $_FILES[$key]['file_type'] = trim($header_value);
                         break;
                 }
             }

@@ -1,0 +1,1242 @@
+[ 2017-04-23T07:49:53+08:00 ] ::1 ::1 GET /tp5/public/?XDEBUG_SESSION_START=13196
+[ log ] localhost/tp5/public/?XDEBUG_SESSION_START=13196 [运行时间：138.496551s][吞吐率：0.01req/s] [内存消耗：1,473.90kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13196',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T07:52:00+08:00 ] ::1 ::1 GET /tp5/public/?XDEBUG_SESSION_START=19643
+[ log ] localhost/tp5/public/?XDEBUG_SESSION_START=19643 [运行时间：114.185252s][吞吐率：0.01req/s] [内存消耗：1,509.47kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d; XDEBUG_SESSION=13196',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '19643',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T07:56:31+08:00 ] ::1 ::1 GET /tp5/public/?XDEBUG_SESSION_START=19643
+[ log ] localhost/tp5/public/?XDEBUG_SESSION_START=19643 [运行时间：1.706051s][吞吐率：0.59req/s] [内存消耗：1,319.75kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d; XDEBUG_SESSION=19643',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '19643',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[D:\phpStudy\WWW\tp5\application\index\controller\Index.php:16]
+
+---------------------------------------------------------------
+[ 2017-04-23T08:05:50+08:00 ] ::1 ::1 GET /tp5/public/?XDEBUG_SESSION_START=19443
+[ log ] localhost/tp5/public/?XDEBUG_SESSION_START=19443 [运行时间：146.798226s][吞吐率：0.01req/s] [内存消耗：1,744.29kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d; XDEBUG_SESSION=19643',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '19443',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:06:07+08:00 ] ::1 ::1 GET /tp5/public/?XDEBUG_SESSION_START=19443
+[ log ] localhost/tp5/public/?XDEBUG_SESSION_START=19443 [运行时间：14.828695s][吞吐率：0.07req/s] [内存消耗：1,460.02kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d; XDEBUG_SESSION=19443',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '19443',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:06:20+08:00 ] ::1 ::1 GET /tp5/public/?XDEBUG_SESSION_START=19443
+[ log ] localhost/tp5/public/?XDEBUG_SESSION_START=19443 [运行时间：6.215915s][吞吐率：0.16req/s] [内存消耗：1,459.91kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d; XDEBUG_SESSION=19443',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '19443',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:06:30+08:00 ] ::1 ::1 GET /tp5/public/?XDEBUG_SESSION_START=19443
+[ log ] localhost/tp5/public/?XDEBUG_SESSION_START=19443 [运行时间：5.301923s][吞吐率：0.19req/s] [内存消耗：1,459.91kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d; XDEBUG_SESSION=19443',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '19443',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:06:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：1.697445s][吞吐率：0.59req/s] [内存消耗：1,543.47kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:11:32+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：1.532593s][吞吐率：0.65req/s] [内存消耗：1,675.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:13:53+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：1.397463s][吞吐率：0.72req/s] [内存消耗：1,544.63kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:14:33+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：2.305716s][吞吐率：0.43req/s] [内存消耗：1,675.54kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:15:28+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：1.677772s][吞吐率：0.60req/s] [内存消耗：1,675.54kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：1.683970s][吞吐率：0.59req/s] [内存消耗：1,675.78kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:19:15+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：1.088846s][吞吐率：0.92req/s] [内存消耗：1,541.76kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:19:29+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：1.432059s][吞吐率：0.70req/s] [内存消耗：1,543.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:55:27+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/index
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/index [运行时间：2.316449s][吞吐率：0.43req/s] [内存消耗：1,674.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\register.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T08:55:32+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/index/pattern.png
+[ log ] 127.0.0.1/tp5/public/index.php/index/index/pattern.png [运行时间：3.962205s][吞吐率：0.25req/s] [内存消耗：1,563.58kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pattern.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'referer' => 'http://127.0.0.1/tp5/public/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:30:48+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.202660s][吞吐率：4.93req/s] [内存消耗：1,337.86kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:32:17+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.201740s][吞吐率：4.96req/s] [内存消耗：1,338.07kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:33:03+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.203900s][吞吐率：4.90req/s] [内存消耗：1,338.07kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:34:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job/actionWithHelloJob [运行时间：0.213160s][吞吐率：4.69req/s] [内存消耗：1,337.87kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:34:45+08:00 ] ::1 ::1 GET /tp5/public/index.php/index/job/actionWithHelloJob?XDEBUG_SESSION_START=18544
+[ log ] localhost/tp5/public/index.php/index/job/actionWithHelloJob?XDEBUG_SESSION_START=18544 [运行时间：0.282581s][吞吐率：3.54req/s] [内存消耗：1,338.23kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18544',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:35:17+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/hello_world/test
+[ log ] 127.0.0.1/tp5/public/index.php/index/hello_world/test [运行时间：0.157794s][吞吐率：6.34req/s] [内存消耗：1,565.57kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'hello_world',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\HelloWorld->test[ D:\phpStudy\WWW\tp5\application\index\controller\HelloWorld.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:35:47+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/login
+[ log ] 127.0.0.1/tp5/public/index.php/index/login [运行时间：0.158044s][吞吐率：6.33req/s] [内存消耗：1,563.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\phpStudy\WWW\tp5\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:37:24+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.205962s][吞吐率：4.86req/s] [内存消耗：1,337.86kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:38:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test [运行时间：0.154426s][吞吐率：6.48req/s] [内存消耗：1,567.44kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->index[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T12:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.265667s][吞吐率：3.76req/s] [内存消耗：1,661.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T12:46:36+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.263129s][吞吐率：3.80req/s] [内存消耗：1,661.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T12:55:51+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.278815s][吞吐率：3.59req/s] [内存消耗：1,662.26kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T13:05:14+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.279657s][吞吐率：3.58req/s] [内存消耗：1,661.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T13:09:20+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.271294s][吞吐率：3.69req/s] [内存消耗：1,661.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T13:13:45+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.285181s][吞吐率：3.51req/s] [内存消耗：1,661.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T13:13:47+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.270588s][吞吐率：3.70req/s] [内存消耗：1,661.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T13:13:49+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.282478s][吞吐率：3.54req/s] [内存消耗：1,661.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]redis扩展未安装[D:\phpStudy\WWW\tp5\vendor\topthink\think-queue\src\queue\connector\Redis.php:38]
+
+---------------------------------------------------------------
+[ 2017-04-23T13:24:57+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.357115s][吞吐率：2.80req/s] [内存消耗：1,642.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T13:25:47+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.326420s][吞吐率：3.06req/s] [内存消耗：1,642.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T13:28:45+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.295593s][吞吐率：3.38req/s] [内存消耗：1,642.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T13:32:28+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think queue:restart [运行时间：0.046086s][吞吐率：21.70req/s] [内存消耗：1,533.12kb] [文件加载：72]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T13:32:58+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.335689s][吞吐率：2.98req/s] [内存消耗：1,642.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T13:33:09+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.333776s][吞吐率：3.00req/s] [内存消耗：1,642.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T13:33:18+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php/index/job_test/actionWithHelloJob
+[ log ] 127.0.0.1/tp5/public/index.php/index/job_test/actionWithHelloJob [运行时间：0.312197s][吞吐率：3.20req/s] [内存消耗：1,642.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'job_test',
+    2 => 'actionWithHelloJob',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'csrftoken=4aa220de16823ad6f5ab6f121dd4d0ff; _ga=GA1.1.1582778537.1471785978',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\JobTest->actionWithHelloJob[ D:\phpStudy\WWW\tp5\application\index\controller\JobTest.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T14:29:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php?_ijt=9r3vk1ocb51r870h164mre4rk0
+[ log ] localhost:63342/tp5/public/index.php?_ijt=9r3vk1ocb51r870h164mre4rk0 [运行时间：25.108757s][吞吐率：0.04req/s] [内存消耗：1,498.64kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d; XDEBUG_SESSION=11185',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:63342',
+)
+[ info ] [ PARAM ] array (
+  '_ijt' => '9r3vk1ocb51r870h164mre4rk0',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-23T14:29:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/public/index.php
+[ log ] localhost:63342/tp5/public/index.php [运行时间：0.208008s][吞吐率：4.81req/s] [内存消耗：1,488.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'cookie' => 'Phpstorm-1beace32=22db853e-dce7-4521-884f-6c68e305352d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'x-ijt' => '9r3vk1ocb51r870h164mre4rk0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:63342',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
